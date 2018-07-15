@@ -14,7 +14,7 @@ var messages = [{
 
 app.use(express.static('public'));
 server.listen(6677, function(){
-    console.log('Servidor esta funcionando http://localhost:6677');
+    console.log('Servidor esta funcionando https://localhost:6677');
 });
 // CONEXION A SOCKET 
 io.on('connection', function(socket){
